@@ -76,21 +76,18 @@ body {
     border-radius: 10px;
     border: none;
     background-color: orange;
-    box-shadow: 3px 4px rgb(255, 208, 122);
     cursor: pointer;
     font-weight: bold;
     margin: 10px 0;
     transition: .3s;
 }
 
-.container #calculateButton:active {
-    transform: translateY(4px);
-    box-shadow: 5px 6px;
+.container #calculateButton:hover {
+    box-shadow: 4px 5px rgb(255, 208, 122);
 }
 
-/*This is just for keyboard users so they get feedback when they tab over it*/
-.container #calculateButton:focus {
-    box-shadow: 5px 6px rgb(255, 208, 122);
+.container #calculateButton:active {
+    transform: translateY(4px);
 }
 
 /*Footer properties*/
