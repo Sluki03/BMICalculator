@@ -11,17 +11,17 @@
 
 /*Body properties*/
 body {
-    background-color: rgb(255, 231, 185);
+    background-color: rgb(27, 25, 18);
 }
 
 /*Container div properties*/
 .container {
     position: relative;
-    width: 300px;
+    width: 270px;
     margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: black;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgb(90, 44, 0);
@@ -48,15 +48,16 @@ body {
     font-size: 20px;
     padding-left: 10px;
     transition: .3s;
+    color: white;
+    background-color: black;
 }
 
 .container input:focus {
-    box-shadow: 3px 4px orange;
+    box-shadow: 0px 4px orange;
 }
 
 .container input::placeholder {
     text-align: center;
-    padding-left: 10px;
 }
 
 /*Result properties*/
@@ -83,7 +84,7 @@ body {
 }
 
 .container #calculateButton:hover {
-    box-shadow: 4px 5px rgb(255, 208, 122);
+    box-shadow: 0px 5px rgb(131, 95, 29);
 }
 
 .container #calculateButton:active {
@@ -97,7 +98,8 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 footer a {
@@ -114,4 +116,13 @@ footer a:hover {
 
 footer a:focus {
     color: rgb(255, 208, 122);
+}
+
+footer div {
+    background-color: white;
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+    margin: 0px 5px 3px 5px;
+    display: inline-block;
 }
