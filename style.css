@@ -7,28 +7,28 @@
     padding: 0;
     font-family: Nunito, Calibri;
     outline: none;
+    user-select: none;
 }
 
 /*Body properties*/
 body {
-    background-color: rgb(27, 25, 18);
+    background-color: black;
 }
 
-/*Container div properties*/
-.container {
-    position: relative;
-    width: 270px;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-    padding: 50px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px rgb(90, 44, 0);
+/*Centers elements in the middle of the page*/
+.center {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /*Container title properties*/
-.container #title {
+#title {
     font-weight: bold;
     font-size: 25px;
     text-align: center;
@@ -37,8 +37,8 @@ body {
 }
 
 /*Container input properties*/
-.container input {
-    width: 96%;
+input {
+    width: 100%;
     margin: 10px 0;
     height: 40px;
     border-radius: 10px;
@@ -46,22 +46,17 @@ body {
     outline: none;
     text-align: center;
     font-size: 20px;
-    padding-left: 10px;
     transition: .3s;
     color: white;
     background-color: black;
 }
 
-.container input:focus {
+input:focus {
     box-shadow: 0px 4px orange;
 }
 
-.container input::placeholder {
-    text-align: center;
-}
-
 /*Result properties*/
-.container #result {
+#result {
     color: orange;
     text-align: center;
     font-size: 20px;
@@ -69,9 +64,9 @@ body {
 }
 
 /*Calculate button properties*/
-.container #calculateButton {
-    color: white;
-    width: 100%;
+#calculateButton {
+    color: black;
+    width: 101%;
     height: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -83,11 +78,11 @@ body {
     transition: .3s;
 }
 
-.container #calculateButton:hover {
+#calculateButton:hover, :focus {
     box-shadow: 0px 5px rgb(131, 95, 29);
 }
 
-.container #calculateButton:active {
+#calculateButton:active {
     transform: translateY(4px);
 }
 
@@ -107,6 +102,7 @@ footer a {
     color: orange;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
     transition: .3s;
 }
 

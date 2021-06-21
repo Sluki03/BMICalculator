@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator</title>
+    <title id="mainTitle">BMI Calculator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="BMICalculatorLogo.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
+    <div class="center">
         <p id="title">BMI Calculator</p>
 
-        <input type="text" name="height" id="height" placeholder="Enter height (cm)">
+        <input type="text" name="height" id="height" placeholder="Enter height (cm)" autofocus>
         <input type="text" name="weight" id="weight" placeholder="Enter weight (kg)">
 
-        <p id="result"></p>
+        <p id="result">Your BMI is:</p>
+        <input type="text" id="calculatedBMI" disabled>
 
         <button id="calculateButton" onclick="Calculate();">Calculate</button>
     </div>
 
     <!--Footer-->
     <footer>
-        &copy; February 2021 <a href="https://github.com/StrahinjaLukic03/">@StrahinjaLukic03</a>
-        <a href="https://github.com/StrahinjaLukic03/BMICalculator">GitHub</a>
+        &copy; <span id="footerMonth">June</span> 2021 <a href="https://github.com/StrahinjaLukic03/" target="_blank">@StrahinjaLukic03</a>
+        <a href="https://github.com/StrahinjaLukic03/BMICalculator" target="_blank">GitHub</a>
         <div></div>
-        <a href="">English</a>
-        <a href="fi/">Suomi</a>
-        <a href="rsC/">Српски</a>
-        <a href="rsL/">Srpski</a>
+        <a href="https://paypal.me/BootlegSounds" id="donate" title="Opens PayPal donation webpage" target="_blank">Donate</a>
+        <div></div>
+        <a onclick="English();">English</a>
+        <a onclick="Finnish();">Suomi</a>
+        <a onclick="SerbianCyrillic();">Српски</a>
+        <a onclick="SerbianLatin();">Srpski</a>
     </footer>
 </body>
 <script src="script.js"></script>
