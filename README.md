@@ -1,9 +1,10 @@
 # BMI Calculator 🍊
 
-The intention of this project that I've made is to help people calculate their BMI based on their height and weight.
+The intention of this project that I've made is to help people calculate their BMI based on their height and weight while being able to be visually pleased. The design goal is simple, yet easily readable and understandable. 
 <br>
-Soon I'm planning to make it in few more languages which should make it more interesting for some people and it adds a bit to the website.
+This project has <span style="color: orange;">English, Finnish & Serbian (Cyrillic & Latin)</span> language implemented.
 <br>
-_This doesn't collect and store the date you've entered, you can check the source code by yourself._
+<br>
+_This project doesn't collect or store the data you've entered. You can check the source code by yourself._
 
-### You can check the project by clicking [here](https://StrahinjaLukic03.github.io/BMICalculator).
+<button name="button" onclick="https://StrahinjaLukic03.github.io/BMICalculator" title="Opens the website in a new tab" target="blank_" style= "color: black; width: 101%; height: 40px; font-size: 20px; border-radius: 10px; border: none; background-color: orange; cursor: pointer; font-weight: bold; margin: 10px 0;">Open BMI Calculator</button>
