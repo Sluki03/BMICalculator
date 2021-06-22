@@ -10,6 +10,11 @@
     user-select: none;
 }
 
+::selection {
+    color: black;
+    background-color: orange;
+}
+
 /*Body properties*/
 body {
     background-color: black;
