@@ -71,6 +71,50 @@ function Calculate() {
 
     // showing the calculated BMI
     document.getElementById("calculatedBMI").value = BMI;
+    
+    // the progressbar stuff
+    if (BMI <= 20)
+        document.getElementById("bar").style.width = "0%";
+    else if (BMI <= 20.5)
+        document.getElementById("bar").style.width = "5%";
+        else if (BMI <= 21)
+            document.getElementById("bar").style.width = "10%";
+            else if (BMI <= 21.5)
+                document.getElementById("bar").style.width = "15%";
+                else if (BMI <= 22)
+                    document.getElementById("bar").style.width = "20%";
+                        else if (BMI <= 22.5)
+                            document.getElementById("bar").style.width = "25%";
+                            else if (BMI <= 23)
+                                document.getElementById("bar").style.width = "30%";
+                                else if (BMI <= 23.5)
+                                    document.getElementById("bar").style.width = "35%";
+                                    else if (BMI <= 24)
+                                        document.getElementById("bar").style.width = "40%";
+                                        else if (BMI <= 24.5)
+                                            document.getElementById("bar").style.width = "45%";
+                                            else if (BMI <= 25)
+                                                document.getElementById("bar").style.width = "50%";
+                                                else if (BMI <= 25.5)
+                                                    document.getElementById("bar").style.width = "55%";
+                                                    else if (BMI <= 26)
+                                                        document.getElementById("bar").style.width = "60%";
+                                                        else if (BMI <= 26.5)
+                                                            document.getElementById("bar").style.width = "65%";
+                                                            else if (BMI <= 27)
+                                                                document.getElementById("bar").style.width = "70%";
+                                                                    else if (BMI <= 27.5)
+                                                                        document.getElementById("bar").style.width = "75%";
+                                                                        else if (BMI <= 28)
+                                                                            document.getElementById("bar").style.width = "80%";
+                                                                            else if (BMI <= 28.5)
+                                                                                document.getElementById("bar").style.width = "85%";
+                                                                                else if (BMI <= 29)
+                                                                                    document.getElementById("bar").style.width = "90%";
+                                                                                    else if (BMI <= 29.5)
+                                                                                        document.getElementById("bar").style.width = "95%";
+                                                                                        else if (BMI >= 30)
+                                                                                            document.getElementById("bar").style.width = "99%";
 }
 
 // Being able to press the calculate button by Enter key
