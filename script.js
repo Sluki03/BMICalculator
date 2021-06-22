@@ -113,7 +113,7 @@ function Calculate() {
                                                                                     document.getElementById("bar").style.width = "90%";
                                                                                     else if (BMI <= 29.5)
                                                                                         document.getElementById("bar").style.width = "95%";
-                                                                                        else if (BMI >= 30)
+                                                                                        else
                                                                                             document.getElementById("bar").style.width = "99%";
 }
 
