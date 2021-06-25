@@ -7,4 +7,5 @@ This project has <span style="color: orange;">English, Finnish & Serbian (Cyrill
 <br>
 _This project doesn't collect or store the data you've entered. You can check the source code by yourself._
 
-<button name="button" onclick="https://StrahinjaLukic03.github.io/BMICalculator" title="Opens the website in a new tab" target="blank_" style= "color: black; width: 101%; height: 40px; font-size: 20px; border-radius: 10px; border: none; background-color: orange; cursor: pointer; font-weight: bold; margin: 10px 0;">Open BMI Calculator</button>
+
+[Open BMI Calculator](https://StrahinjaLukic03.github.io/BMICalculator)
