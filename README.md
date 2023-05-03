@@ -8,4 +8,4 @@ This project has <span style="color: orange;">English, Finnish & Serbian (Cyrill
 _This project doesn't collect or store the data you've entered. You can check the source code by yourself._
 
 
-[Open BMI Calculator](https://StrahinjaLukic03.github.io/BMICalculator)
+[Open BMI Calculator](https://sluki03.github.io/BMICalculator)
